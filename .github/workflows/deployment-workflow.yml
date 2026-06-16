@@ -1,0 +1,13 @@
+name: deployment-workflow.yml
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: self-hosted  #원격지에서 직접 실행
+    steps:
+      - name: Hello, World!
+        run: |
+          echo "Hello, World!" >> hello.log
