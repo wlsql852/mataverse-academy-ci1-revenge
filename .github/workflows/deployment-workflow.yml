@@ -9,5 +9,5 @@ jobs:
     runs-on: self-hosted  #원격지에서 직접 실행
     steps:
       - name: Hello, World!
-        run:
+        run: |
           echo "Hello, World!" >> hello.log
