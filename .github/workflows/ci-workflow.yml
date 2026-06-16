@@ -27,5 +27,3 @@ jobs:
 
       - name: 실행
         run: ./gradlew test --no-daemon
-
-
